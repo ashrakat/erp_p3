@@ -1,0 +1,462 @@
+<html>
+ <head>
+   <link href="stylesheets/style.css" rel="stylesheet">
+   <link href = "stylesheets/bootstrap.min.css" rel ="stylesheet">   
+   <script src="javascripts/jquery.min.js"></script>
+   <script src = "javascripts/news.js"></script>
+   <script src = "javascripts/videos.js"></script>     
+   <script src="javascripts/handlebars-v3.0.3.js"></script>     
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">       
+ </head>
+
+ <body>
+     
+    <!-- header section --> 
+  <div id = "header">
+     <img id = "swapHImg" class = "headerImg" src="header_photos/2.jpg">
+     <img class="small" src="photos/Logo.png" width="120">    
+
+      <div class = "small2">
+        <a href="#" class="icons_color"><span  class="fa fa-facebook-official"></span></a>
+        <a href="#" class="icons_color"><span class="fa fa-twitter"></span></a>
+        <a href="#" class="icons_color"><span class="fa fa-instagram"></span></a> 
+        <a href="#" class="icons_color"><span class="fa fa-navicon"></span></a>
+      </div>     
+   </div>         
+    <!-- end of header section -->
+     
+     
+     <!-- the heart of the page  "the big container (only section1)"-->
+    <div class = "container">
+     <div id = "section1">    
+       <h1 style = "font-weight: bold;">H.H.'S</h1>
+       <h1 class = "section2_page2_row1_col1">Media Center</h1>
+       <br><!--
+       <div class = "navbar">    
+        <div class = "hline " style = "float: left; width:30%; margin-top: 25px;"></div> 
+        <a  href = "#">  Latest News</a>
+          
+        <a href = "#">  Events</a> 
+         
+        <a  href = "#">  Interviews</a> 
+          
+        <a href ="#"> Articles</a> 
+       </div>
+       -->
+       <div class = "row">
+         <div class = "navbar">   
+           <div class = "col-md-4">
+             <div class = "hline" style = "margin-top: 25px;"></div>   
+           </div>
+           <div class = "col-md-2" style="text-align: center;">
+               <a  href = "/multimedia"> Latest News</a>
+           </div>
+            <div class = "col-md-2" style="text-align: center;">
+               <a  href = "#"> Events</a>
+           </div>
+            <div class = "col-md-2" style="text-align: center;">
+               <a  href = "#"> Interviews</a>
+           </div>
+            <div class = "col-md-2" style="text-align: center;">
+               <a  href = "#"> Articles</a>    
+           </div>
+        </div>     
+       </div>  
+       <div class = "row">
+        <div id = "main_HomepageNews">
+        </div>
+        <div id = "other_news">
+        </div>
+        <div id = "loadmore_news">
+        </div>   
+       </div>
+         
+    <center>     
+       <span class = "btn" id = "loadmore">&#9670;</span>
+       <p style = "color: #92856a">load more</p>     
+    </center>     
+     </div>
+     <!-- end of section1 -->      
+    </div> 
+     <!-- end of the big " section 1 container" container -->
+     
+     <!-- section2 "Cross" -->
+     <div id = "section2">
+       <div class = "container containerClone"> 
+       <div class = "row">  
+        <div class = "col-md-8 col-xs-12 col-sm-8">
+          <div class = "thumbnail" style="background-color: transparent;border: none;">
+            <img src = "photos/02 Homepage/The rock.png" style = "max-height: 700px; min-height: 250px;min-width: 100">
+          </div>  
+        </div>
+        <div class = "col-md-4 col-xs-12 col-sm-4">
+            <div class = "thumbnail" style="background-color: transparent; border: none;">
+                <h1 class = "section2_page2_row1_col1">H.H.'S</h1>
+                <h1 class = "section2_page2_row1_col1">Biography</h1>
+                <p class = "page_2_paragraph1" style="font-size: 14px;">The future, with its needs and challenges call upon us to embrark prepetual quest for alternative source of energy</p>  
+                <div class ="icon-box" id = "sharedBox">
+				 <a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+                 <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+                 <a href="#" id ="colorIcon"><span class="fa fa-whatsapp"></span></a>
+                 <a href="#" id ="colorIcon"><span class="fa fa-telegram"></span></a>
+                  <a href="#" style = "float: right; color: #92856a;" class="material-icons plus_icon">add_circle_outline</a>    
+                </div>
+            </div>
+        </div>   
+       </div>
+      </div>        
+     </div>
+     
+     <!-- end of section2-->
+     
+     <!-- section3 -->
+     <div class="container">
+      <div class = "row">
+       <div class = "col-md-8 col-xs-12">
+         <div class ="noborder">    
+          <div class ="thumbnail">
+           <img id = "swapImg" src = "switch_photos/1.jpg">    
+           <div class = "thumbnail galleryP1">   
+               <p  class ="page_2_paragraph1" style="font-size: 18px;"><span class = "mycontent-right" style ="font-size: 18px;"><span id='counterValue'></span>&nbsp;</span>
+                   &nbsp;
+                From a speech delivered at the Student Forum 2007
+                <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
+                </p>        
+           </div>
+          </div>
+         </div>       
+       </div>  
+       <div class = "col-md-4 col-xs-12" style = "top: 50;">
+         <h1 class = "section2_page2_row1_col1">H.H.'S</h1>
+         <h1 class = "section2_page2_row1_col1">Media gallery</h1>
+         <h6 class = "hline"></h6>
+         <p class = "page_2_paragraph1" style="font-size: 14px;">The future, with its needs and challenges call upon us to embrark prepetual quest for alternative source of energy</p>    
+         <br>   
+         <div class ="icon-box" id = "sharedBox">
+           <a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+           <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+           <a href="#" id ="colorIcon"><span class="fa fa-whatsapp"></span></a>
+           <a href="#" id ="colorIcon"><span class="fa fa-telegram"></span></a>
+         </div>   
+       </div>      
+      </div>
+      
+      <div class = "row">
+        <div class = "col-md-4 col-xs-12" style = "top: 100; padding-bottom: 80px; ">
+         <h1 class = "section2_page2_row1_col1">H.H.'S</h1>
+         <h1 class = "section2_page2_row1_col1">Video center</h1>
+         <h6 class = "hline"></h6>
+         <p class = "page_2_paragraph1" style="font-size: 14px;">The future, with its needs and challenges call upon us to embrark prepetual quest for alternative source of energy</p>    
+         <br> <br> 
+       </div>
+        <div id = "mainVideo">
+        </div>  
+      </div>
+      <div class = "row">    
+       <div id = "loadmore_videos">
+       </div>    
+      </div>
+         
+      <center>     
+       <span class = "btn" id = "loadmoreVideos">&#9670;</span>
+       <p style = "color: #92856a;">load more</p>     
+      </center>  
+     </div>     
+     <!--end of section3 -->
+     
+     
+     <!-- section4 "Cross"-->
+     <div id = "section4">
+      <div class = "container">
+       <div class = "containerClone">     
+        <div class = "row">  
+                 <div class="col-md-5 col-md-offset-2">
+                    <br><br>
+                    <div class="textWithDiamond">
+                        <h1 class="headers_color" style="color: black">H.H.'S</h1>
+                        <h1 class="headers_color" style="font-size: 44px;color: darkslategray;">Quotes</h1>
+                        <br>
+                        <div class = "hline"></div>
+                        <br>
+                        <p class ="page_2_paragraph1" style="font-size: 16px;">
+                       His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
+                        </p>
+                        
+                        <br><br><br><br><p style="font-size: 12px;font-weight: bold">From the speech delivered at the student Forum  at 2007</p>
+                        <a href="#" class="icons_colorCross"><span  class="fa fa-facebook-official"></span></a>
+                        <a href="#" class="icons_colorCross"><span class="fa fa-twitter"></span></a>
+                        <a href="#" class="icons_colorCross"><span class="fa fa-whatsapp"></span></a>
+                        <a href="#" class="icons_colorCross"><span class="fa fa-telegram"></span></a>
+                        <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
+                    </div>
+                     <br>
+                </div>
+               <div class="col-md-offset-0 col-md-3 col-xs-offset-4 col-xs-3 Diamond">
+                  <div class = "thumbnail picHug">
+                   <img  src="photos/DiamondImg.png">
+                  </div>
+                </div>   
+        </div>        
+       </div>
+      </div>             
+     </div>
+     <!-- end of section4 -->
+     
+     
+     <!-- footer section -->
+     <div id ="foot_section" style = "padding-top: 80px;">
+        <div class = "container">
+          <div class = "row">
+            <div class = "col-md-offset-2 col-md-2 col-xs-3">
+                <img src="photos/Logo.png" width="100">
+            </div>
+            <div class = "col-md-2 col-xs-2">
+             <p class = "headers_color"> Social</p>
+             <a href="#" class="icons_color"><span  class="fa fa-facebook-official"></span></a>
+             <a href="#" class="icons_color"><span class="fa fa-twitter"></span></a>
+             <a href="#" class="icons_color"><span class="fa fa-whatsapp"></span></a> 
+             <a href="#" class="icons_color"><span class="fa fa-telegram"></span></a>
+            </div> 
+            <div class = "col-md-2 col-xs-2">
+             <p class = "headers_color"> Mobile App</p>
+             <a href="#" class="icons_color"><span class="fa fa-android"></span></a> 
+             <a href="#" class="icons_color"><span class="fa fa-apple"></span></a>
+            </div> 
+            <div class="col-md-2 headers_color col-xs-3">
+              <div class="icons_color" style="font-size:11px;"><span class="fa fa-star"></span>
+              <br><br>copyrighs@2016 Crown Prince Court Emirate of Abu Dhabi</div>
+            </div>    
+          </div>  
+        </div>
+        
+      <div class="footer">  
+       <a href="#" class="whiteAnchor"> Bio</a>
+       <a href="#" class="aqAnchor"> Gallary</a>
+       <a href="#" class="whiteAnchor"> News</a>
+       <a href="#" class="whiteAnchor"> Contacts</a>
+     </div>    
+         
+    </div>
+    <!-- the end of the footer section -->
+
+     
+ <!-- handlebar Scripts -->
+
+ <!-- script of the first 5 news item -->
+ <script  id="reqNews-template" type="text/x-handlebars-template">
+   {{#each news_items}}
+     {{#compare num "5"}}
+     <div class = "col-md-4">
+      {{#if img_src}}
+        <div class ="noborder">    
+        <div class ="thumbnail">
+         <img class = "otherImg" src = {{img_src}}>    
+           <div class = "thumbnail thumbclone">  
+       {{else}}
+          <div  style="min-height: 370px;"> 
+        {{/if }}
+            <h3 class = "headers_color">{{title}}</h3>
+            <h6 class = "hline"></h6>
+            <p class ="page_2_paragraph1"> {{description}}</p>
+            <br>   
+             <p style = "font-size: 14px; font-weight: bold"> 17 February 2016</p>
+             <div class ="icon-box" id = "sharedBox">
+				<a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+                <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+                <a href="#" id ="colorIcon"><span class="fa fa-whatsapp"></span></a>
+                <a href="#" id ="colorIcon"><span class="fa fa-telegram"></span></a>
+                <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
+            </div>
+          </div>
+        </div>
+       </div>       
+      </div> 
+     </div>
+     {{/compare}}
+    {{/each}}
+ </script>
+    
+ <!-- script for the main news -->
+ <script id="mainNewsHomepage-template" type="text/x-handlebars-template">
+{{#each main_news}}
+     <div class = "col-md-8 col-xs-12">
+      <div class ="noborder">    
+        <div class ="thumbnail">
+         <img src = {{img_src}}>    
+           <div class = "thumbnail">      
+            <h3 class = "headers_color">{{title}}</h3>
+            <br>
+            <h6 class = "hline"></h6>
+            <br>
+            <p class ="page_2_paragraph1"> {{description}}</p>
+            <br>
+             <p style = "font-size: 14px; font-weight: bold"> 17 February 2016</p>
+             <div class ="icon-box" id = "sharedBox">
+				<a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+                <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+                <a href="#" id ="colorIcon"><span class="fa fa-whatsapp"></span></a>
+                <a href="#" id ="colorIcon"><span class="fa fa-telegram"></span></a>
+                <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
+            </div>     
+          </div>
+        </div>
+       </div>       
+      </div>
+{{/each}}
+ </script>
+     
+     
+ <!-- script of loading more items -->
+ <script  id="moreNews-template" type="text/x-handlebars-template">
+   {{#each news_items}}
+     {{#morethan num "5"}}
+     <div class = "col-md-4">
+      {{#if img_src}}
+        <div class ="noborder">    
+        <div class ="thumbnail">
+         <img class = "otherImg" src = {{img_src}}>    
+           <div class = "thumbnail thumbclone">  
+       {{else}}
+          <div  style="min-height: 370px;"> 
+        {{/if }}
+            <h3 class = "headers_color">{{title}}</h3>
+            <h6 class = "hline"></h6>
+            <p class ="page_2_paragraph1"> {{description}}</p>
+            <br>   
+             <p style = "font-size: 14px; font-weight: bold"> 17 February 2016</p>
+             <div class ="icon-box" id = "sharedBox">
+				<a href="#" id = "colorIcon" class="fa fa-facebook Icons"></a>
+                <a href="#" id = "colorIcon" class="fa fa-twitter Icons" ></a>
+                <a href="#" id ="colorIcon"><span class="fa fa-whatsapp"></span></a>
+                <a href="#" id ="colorIcon"><span class="fa fa-telegram"></span></a>
+                <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
+            </div>
+          </div>
+        </div>
+       </div>       
+      </div> 
+     </div>
+     {{/morethan}}
+    {{/each}}
+ </script>     
+ 
+ <!-- script of loading the main video -->     
+ <script id="mainVideo-template" type="text/x-handlebars-template">
+{{#each main_video}}
+    <div class = "col-md-8 col-xs-12">
+         <div class ="noborder">    
+          <div class ="thumbnail">
+           <img src = {{src}}>    
+           <div class = "thumbnail galleryP1">   
+               <p  class ="page_2_paragraph1" style="font-size: 18px;"><i class="fa fa-play fa-lg"></i><span>&#10072;</span>&nbsp;
+                   {{description}}
+                <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
+                </p>        
+           </div>
+          </div>
+         </div>       
+       </div>  
+{{/each}}
+ </script>
+      
+ 
+ <!-- script of loading all other videos-->
+ <script  id="moreVideos-template" type="text/x-handlebars-template">
+   {{#each video_items}}
+     <div class = "col-md-4 col-xs-12">
+      <div class ="noborder">    
+        <div class ="thumbnail">
+         <img class = "videoStream" src = {{src}}>    
+           <div class = "thumbnail galleryP1">   
+             <p  class ="page_2_paragraph1" style="font-size: 18px;"><i class="fa fa-play fa-lg"></i><span>&#10072;</span>&nbsp;
+                {{description}}
+             <a href="#" style = "float: right;" class="material-icons plus_icon">add_circle_outline</a>
+             </p>        
+           </div>
+        </div>
+      </div>       
+     </div>  
+    {{/each}}
+ </script>          
+     
+     
+ <script>
+      var countheaders = 1;
+      var countswitch = 1;  
+      function swapheaders(){
+         countheaders += 1;
+         if(countheaders > 5) countheaders = 1;
+         document.getElementById("swapHImg").src = 'header_photos/'+countheaders+'.jpg';
+      }
+      
+      function swap(){
+            countswitch += 1;
+            if(countswitch > 8) countswitch = 1;
+            document.getElementById("swapImg").src = 'switch_photos/'+countswitch+'.jpg';
+            document.getElementById("counterValue").innerHTML = countswitch +'/8';
+        }
+     
+      $(document).ready(function(){
+         document.getElementById("counterValue").innerHTML = countswitch +'/8';  
+         setInterval(function(){ swapheaders() }, 2000); 
+         setInterval(function(){ swap() }, 2000);  
+        
+        // Modeling main news script
+         var source   = $("#mainNewsHomepage-template").html();
+         var template = Handlebars.compile(source);
+         var html  = template(news);
+         $('#main_HomepageNews').html(html);
+         
+        // Modeling other news "the first 5" script
+         source   = $("#reqNews-template").html();
+         template = Handlebars.compile(source);
+         html  = template(news);
+         $('#other_news').html(html); 
+          
+        // Modeling the main video script
+         source   = $("#mainVideo-template").html();
+         template = Handlebars.compile(source);
+         html  = template(videos);
+         $('#mainVideo').html(html); 
+          
+      });      
+     
+     
+     // modeling and display more news
+      $("#loadmore").click(function(){
+         var source = $("#moreNews-template").html();
+         var temp = Handlebars.compile(source);  
+         var html  = temp(news);
+         $('#loadmore_news').html(html); 
+        });
+     
+      // modeling and display more vedeos
+      $("#loadmoreVideos").click(function(){
+         var source = $("#moreVideos-template").html();
+         var temp = Handlebars.compile(source);  
+         var html  = temp(videos);
+         $('#loadmore_videos').html(html); 
+        });
+        
+     
+     Handlebars.registerHelper('compare', function (param , value , options){
+         if(param <= value){
+             return options.fn(this);
+         }
+          return options.inverse(this);          
+      });
+     
+     Handlebars.registerHelper('morethan', function (param , value , options){
+         if(param <= value){
+          return options.inverse(this); 
+         }
+         return options.fn(this); 
+          
+      });
+     
+ </script>     
+ 
+     
+ </body>   
+</html>
