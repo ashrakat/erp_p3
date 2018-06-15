@@ -53,8 +53,6 @@ var news = {
             date:"2015",
             title: "Mohammed Bin Zayed receives Qatari FM",
             description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
-=======
->>>>>>> 3423b2568b6d5db4bb28c7591b48c57aa91ab4e2
         }
     ],
     
